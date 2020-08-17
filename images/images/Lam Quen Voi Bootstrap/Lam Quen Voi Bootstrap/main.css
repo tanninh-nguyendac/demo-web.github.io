@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.navbar {
+    background: #6ab444;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.logo {
+    color: white;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.posts {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.post-title {
+    color: #333333;
+    font-size: 1.3rem;
+    font-weight: 250;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+}
